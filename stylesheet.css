@@ -1,0 +1,58 @@
+body {
+	font-family: Poppins, sans-serif;
+	background: #EAEAEA;
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: #FFF;
+	text-align: center;
+	padding: 10px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+div.postUno {
+	background: #FFF;
+	margin-top: 80px;
+	border-radius: 5px;
+}
+
+div.postUno img {
+	width: 100%;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 1px;
+}
+
+div.postUno p {
+	padding: 10px;
+	margin: 0;
+}
+
+div.container {
+	width: 600px;
+	margin: auto;
+}
+
+div.postUno .postHead .postHeadTextoIzquierda {
+	display: inline-block;
+	width: 80%;
+}
+
+div.postUno .postHead .postHeadTextoDerecha {
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+	color: lightgray;
+}
+
+.postBottomFinal {
+	margin-bottom: 20px;
+}
